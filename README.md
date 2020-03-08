@@ -1,8 +1,20 @@
 # CineFlix
 
 [CineFlix live][heroku]
-
+ 
 [heroku]: http://cineflixx.herokuapp.com/
+
+
+## Deploying to Heroku
+
+
+$ heroku create
+$ git push heroku master
+$ heroku open
+
+or
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Description
 
@@ -14,7 +26,7 @@ with Javascript, React.js and a Redux architectural framework.
 The browse page is the main page of Cineflix. It displays all genres of movies and TV shows that a user can view. When a user is logged in, clicking on the Cineflix logo will route the user back to the browse page.
 
 ![cineflix](app/assets/images/browse.png)
-
+ 
 ## Videos
 Videos are retrieved from a YouTube API. The react-youtube library is used
 to play videos of each `Episode` through its `video_url`.Episodes are listed
